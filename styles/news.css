@@ -1,0 +1,39 @@
+#news {
+  box-shadow: 0 0 0px black;
+}
+
+.news-items {
+  color: rgb(240, 240, 240);
+  padding: 5px;
+  font-family: techmono, "Times New Roman", Times, serif;
+  text-decoration: none;
+  height: 80px;
+}
+
+.news-items a div {
+  color: rgb(240, 240, 240);
+  display: inline;
+  padding: 5px;
+  height: 100px;
+  font-family: techmono, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.news-items a .block {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+#news-field {
+  width: 100%;
+  height: 100px;
+}
+
+#news-field a {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  min-width: 100px;
+  background-color: red;
+}

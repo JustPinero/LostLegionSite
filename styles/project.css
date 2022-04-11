@@ -1,0 +1,131 @@
+#projects h1 {
+  font-family: techmono, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.project-panel {
+  height: 90vh;
+  background-color: black;
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#project-list {
+  text-align: center;
+}
+
+.project-panel_tiled {
+  text-decoration: none;
+  min-width: 200px;
+  margin: 5px;
+  padding: 20px;
+  height: 200px;
+  background-color: black;
+  display: inline-block;
+  transform: scale(1);
+  filter: brightness(90%);
+  transition-property: transform, filter;
+  transition-duration: 0.3s;
+}
+
+.project-panel_tiled:hover {
+  filter: brightness(110%);
+  transform: scale(1.03);
+  transition-property: transform, filter;
+  transition-duration: 0.4s;
+}
+/*
+.project-panel:hover {
+  filter: brightness(110%);
+  transform: scale(1);
+  transition-property: transform, filter;
+  transition-duration: 0.4s;
+}
+*/
+
+.project-title {
+  font-family: techmono, "Times New Roman", Times, serif;
+  padding-top: 45vh;
+  padding-left: 10%;
+}
+
+.project-title_tiled {
+  font-family: techmono, "Times New Roman", Times, serif;
+  color: white;
+}
+
+#tbr,
+#tbr-sq {
+  background-image: url(../assets/backgrounds/square/sq_coming-soon.jpg);
+}
+
+#unheavenly-creatures,
+#unheavenly-creatures-sq {
+  background-image: url(../assets/backgrounds/square/sq_unheavenly-art-lq.jpg);
+}
+
+#exodite,
+#exodite-sq {
+  background-image: url(../assets/backgrounds/square/sq_exodite.jpg);
+}
+
+#solar,
+#solar-sq,
+#solar-hq {
+  background-image: url(../assets/backgrounds/square/sq_LLS_Solar_Header_without_lq.jpg);
+}
+
+#genus,
+#genus-sq {
+  background-image: url(../assets/backgrounds/square/sq_genus_lq.jpg);
+}
+
+#nazralath,
+#nazralath-sq {
+  background-image: url(../assets/backgrounds/square/sq_nazralath_concept1_lq.jpg);
+}
+
+@media only screen and (min-width: 1000px) {
+  #exodite {
+    background-image: url(../assets/backgrounds/hq-square/sq-hq-exodite.jpg);
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  #tbr {
+    background-image: url(../assets/backgrounds/coming-soon.jpg);
+  }
+
+  #unheavenly-creatures {
+    background-image: url(../assets/backgrounds/unheavenly-art-lq.jpg);
+  }
+
+  #exodite {
+    background-image: url(../assets/backgrounds/exodite.jpg);
+  }
+
+  #solar {
+    background-image: url(../assets/backgrounds/LLS_Solar_Header_without_lq.jpg);
+  }
+
+  #solar-hq {
+    background-image: url(../assets/backgrounds/LLS_Solar_Headder_midq.jpg);
+  }
+
+  #genus {
+    background-image: url(../assets/backgrounds/genus_lq.jpg);
+  }
+
+  #nazralath {
+    background-image: url(../assets/backgrounds/nazralath_concept1_lq.jpg);
+  }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 1000px) {
+  #exodite {
+    background-image: url(../assets/backgrounds/hq/hq-exodite.jpg);
+  }
+}

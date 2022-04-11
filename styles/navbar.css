@@ -1,0 +1,23 @@
+#navbar {
+  position: -webkit-sticky;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.menu-items {
+  text-align: center;
+  padding: 10px;
+}
+
+.menu-items li,
+.menu-items a,
+.menu-items a h3,
+.menu-items a h4 {
+  color: rgb(240, 240, 240);
+  display: inline;
+  padding: 5px;
+  font-family: techmono, "Times New Roman", Times, serif;
+  text-decoration: none;
+}

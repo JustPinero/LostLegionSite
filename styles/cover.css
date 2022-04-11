@@ -1,0 +1,21 @@
+#cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
+#cover div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.exit {
+  width: 3vw;
+  position: fixed;
+  top: 3%;
+  color: white;
+}

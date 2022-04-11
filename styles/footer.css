@@ -1,0 +1,49 @@
+#footer {
+  width: 100%;
+  height: 400px;
+  padding-top: 2vh;
+}
+#footer-container {
+  width: 100%;
+  height: 400px;
+  padding-top: 2vh;
+}
+
+#footer-logo {
+  height: 300px;
+  width: auto;
+  padding: 20px;
+}
+
+#footer-container div,
+#footer-container img {
+  display: inline;
+  float: left;
+}
+
+#footer-container img {
+  padding-left: 20px;
+}
+
+#footer-container div {
+  padding: 0 70px;
+  padding-top: 70px;
+}
+
+#footer-container p,
+#footer-container a,
+#footer-container h3 {
+  display: block;
+  text-align: left;
+  padding: 10px;
+  color: white;
+}
+
+.foot-icon {
+  height: 50px;
+  padding: 10px;
+  padding-left: 0px !important;
+}
+
+#footer-icon-twitter {
+}

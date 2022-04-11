@@ -1,0 +1,10 @@
+# Dont allow about page
+User-agent: *
+Disallow: /about/
+
+# Dont allow indexing of about-page images and project-thumbnails
+User-agent: Googlebot-Image
+Disallow: /about/
+Disallow: /projects/
+
+Sitemap: http://lostlegionstudios.com/sitemap.xml

@@ -1,0 +1,138 @@
+@font-face {
+  font-family: techmono;
+  src: url(../assets/fonts/ShareTechMono-Regular.ttf);
+}
+
+h1 {
+  font-weight: unset;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+#logo {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../assets/logos/LLS_v002_LOGO-TEXT_MAIN_ALPHA_1024_PNG.png");
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-height: 1024px) {
+  #logo {
+    background-image: url("../assets/logos/LLS_v002_LOGO-TEXT_MAIN_ALPHA_4096_PNG.png");
+  }
+}
+
+#error-text {
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+}
+
+.lit {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.lit:link {
+  background-color: rgb(240, 240, 240);
+  color: #5f1306;
+}
+.lit a {
+  color: #5f1306;
+}
+
+.red {
+  background-color: #5f1306;
+  color: white;
+  font-weight: normal !important;
+}
+
+.red-text {
+  color: #5f1306;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  font-weight: normal !important;
+}
+
+.break {
+  height: 20vh;
+}
+
+.line {
+  height: 2px;
+}
+
+.text-field {
+  max-width: 1000px;
+}
+
+.text-field h1,
+.text-field h2 {
+  text-align: center;
+  font-family: techmono, "Times New Roman", Times, serif;
+}
+
+.center {
+  margin: auto;
+  max-width: 90%;
+  width: 500px;
+  min-width: 50%;
+  padding: 10px;
+}
+
+.tech {
+  text-align: center;
+  font-family: techmono, "Times New Roman", Times, serif;
+}
+
+.techfont {
+  font-family: techmono, "Times New Roman", Times, serif;
+}
+
+.diag,
+.diag-l {
+  padding: 200px 5%;
+}
+
+.diag-alt {
+  padding: 100px 5%;
+}
+
+.shadow {
+  box-shadow: 10px 10px 5px #131111;
+  -moz-box-shadow: 3px 3px 5px #131111;
+  -webkit-box-shadow: 3px 3px 5px #131111;
+  -khtml-box-shadow: 3px 3px 5px #131111;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 4px black;
+  -moz-text-shadow: 1px 1px 4px black;
+  -webkit-text-shadow: 1px 1px 4px black;
+  -khtml-text-shadow: 1px 1px 4px black;
+}
+
+.fix {
+  background-attachment: fixed;
+}
+
+.poster {
+  background-position: center;
+  background-size: cover;
+}
+
+#arr {
+  text-align: right;
+  padding: 4px;
+  color: gray;
+}
